@@ -11,10 +11,36 @@
     <Filter Include="core\Source Files">
       <UniqueIdentifier>{638de476-ee4c-459a-b71e-39f389f0c886}</UniqueIdentifier>
     </Filter>
+    <Filter Include="core\Header Files">
+      <UniqueIdentifier>{bf52496e-26d7-4f3e-afb9-82cb2538de32}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="core\main.cpp">
       <Filter>core\Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="core\GameObject.cpp">
+      <Filter>core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="core\Component.cpp">
+      <Filter>core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="core\ComponentAllocator.cpp">
+      <Filter>core\Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="core\Component.h">
+      <Filter>core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="core\GameObject.h">
+      <Filter>core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="core\ComponentAllocator.h">
+      <Filter>core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="core\TestComponents.h">
+      <Filter>core\Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
