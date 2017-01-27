@@ -6,18 +6,19 @@ namespace vr_core
 {
 	class TestComponentA : public Component
 	{
-	public:
+	protected:
 		virtual ~TestComponentA()
 		{
 			std::cout << "In TestComponentA destructor" << std::endl;
 		}
+
 	private:
-		int i = 0;
+		int _anInt = 0;
 	};
 
 	class TestComponentB : public Component
 	{
-	public:
+	protected:
 		virtual ~TestComponentB()
 		{
 			std::cout << "In TestComponentB destructor" << std::endl;

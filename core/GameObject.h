@@ -10,16 +10,15 @@ namespace vr_core
 	class GameObject
 	{
 	public:
-		~GameObject();
-
 		template<class T> T* AddComponent();
 		template<class T> T* GetComponent();
 		template<class T> void RemoveComponent(T* which);
 
+		~GameObject();
+
 	private:
 		size_t _count = 0;
 		Component* _components[MAX_COMPONENTS];
-
 	};
 
 	template <class T>
